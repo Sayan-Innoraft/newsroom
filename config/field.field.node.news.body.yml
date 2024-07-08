@@ -1,0 +1,28 @@
+uuid: 6ace7d0e-f1f1-4d0e-95af-c0eaf5a9d220
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.news
+  module:
+    - summary_word_limit
+    - text
+third_party_settings:
+  summary_word_limit:
+    summary_word_limit_count: '50'
+id: node.news.body
+field_name: body
+entity_type: node
+bundle: news
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: true
+  allowed_formats: {  }
+field_type: text_with_summary

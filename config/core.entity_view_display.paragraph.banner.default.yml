@@ -1,0 +1,41 @@
+uuid: 686aa63c-574c-4f32-935c-86147d9c6b24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner.field_image_banner
+    - field.field.paragraph.banner.field_link
+    - image.style.medium
+    - paragraphs.paragraphs_type.banner
+  module:
+    - image
+    - link
+id: paragraph.banner.default
+targetEntityType: paragraph
+bundle: banner
+mode: default
+content:
+  field_image_banner:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

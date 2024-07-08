@@ -1,0 +1,30 @@
+uuid: 8827d093-5439-44c6-95ef-88f1a54dc66a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.home_banner_content.field_banner
+    - node.type.home_banner_content
+  module:
+    - entity_reference_revisions
+    - user
+id: node.home_banner_content.default
+targetEntityType: node
+bundle: home_banner_content
+mode: default
+content:
+  field_banner:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
