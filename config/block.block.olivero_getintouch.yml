@@ -1,0 +1,25 @@
+uuid: 5db50f7e-db1c-41f2-b597-c221b8092e03
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.get-in-touch
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_getintouch
+theme: olivero
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:get-in-touch'
+settings:
+  id: 'system_menu_block:get-in-touch'
+  label: 'Get in touch'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

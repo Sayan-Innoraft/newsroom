@@ -1,0 +1,10 @@
+name: 'Summary Word Limit'
+type: module
+description: 'Adds a setting to Text with Summary fields to limit the number of words in the summary.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Fields
+
+# Information added by Drupal.org packaging script on 2023-07-29
+version: '2.0.2'
+project: 'summary_word_limit'
+datestamp: 1690656839

@@ -1,0 +1,4 @@
+name: newsroom
+recipe: drupal10
+config:
+  webroot: .
